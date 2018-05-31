@@ -1,0 +1,30 @@
+body{
+    overflow-y: scroll;
+overflow-x: hidden;
+background-color: black;
+
+}
+.marquesina{
+    
+    border:black solid;
+    position: relative;
+    right: -1200px;
+    width: 100%;
+    background-color: black;
+    color: #80F55F;
+
+}
+div .marquesina{
+    animation: marquesina 10s infinite;
+}
+@keyframes marquesina {
+    0%{
+        right: -100%;
+    }
+    100%   {
+         right:0px;
+        }
+}
+#images img {
+    width: 
+}
